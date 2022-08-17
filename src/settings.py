@@ -14,8 +14,7 @@ class Settings(BaseSettings):
     MODEL_DEPLOYMENT_DOCKER_SAGEMAKER = 'src/model_deployment/docker_ecr_init.sh'
     MODEL_DEPLOYMENT_DOCKER_SERVER = 'src/model_deployment/docker_ecr.sh'
     PIPELINE_NAME = 'pipeline-tcl'
-    #BUCKET_NAME__ = 'pipeline-tcl-ver1'
-    BUCKET_NAME = 'pipeline-29feb756-2b13-48cd-a86b-86081ff35518'
+    BUCKET_NAME = ''
 
     @staticmethod
     def get_src_dir():
