@@ -1,0 +1,8 @@
+pandas==0.25.3 
+boto3 
+sagemaker 
+awscli 
+spacy==3.2.3 
+pyarrow==6.0.1
+scikit-learn==1.0.2 
+mlflow==1.24.0 
